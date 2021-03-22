@@ -10,7 +10,8 @@ namespace Alapok
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello világ!");
+            string nev = "Bodrogi Péter Róbert";
+            Console.WriteLine("Hello " + nev + "!");
 
             Console.ReadKey(true);
         }
